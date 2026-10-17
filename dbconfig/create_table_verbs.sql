@@ -524,7 +524,44 @@ INSERT INTO verbs3 (id, category, root1_e, root2_e, root3_e, basic_e, basicp_e, 
     (336, 'IV-D2', 'kh', 'f', 'y', 'akhfaa', 'yukhfee', 'akhfi', 'to hide, to conceal'),
     (337, 'IV-D2', 'gh', 'n', 'y', 'aghnaa', 'yughnee', 'aghni', 'to enrich, to avail'),
     (338, 'IV-D2', 'l', 'q', 'y', 'alqaa', 'yulqee', 'alqi', 'to throw'),
-    (339, 'IV-D2', 'ɛ', 'm', 'y', 'aɛmaa', 'yuɛmee', 'aɛmi', 'to blind')
+    (339, 'IV-D2', 'ɛ', 'm', 'y', 'aɛmaa', 'yuɛmee', 'aɛmi', 'to blind'), 
+
+
+    (340, 'V-S1', 'm', 't', 'ɛ', 'tamattaɛa', 'yatamattaɛu', 'tamattaɛ', 'to enjoy'),
+    (350, 'V-S1', 'q', 'b', 'l', 'taqabbala', 'yataqabbalu', 'taqabbal', 'to accept'),
+    (351, 'V-S1', 'dh', 'k', 'r', 'tadhakkara', 'yatadhakkaru', 'tadhakkar', 'to remember, to recall'),
+    (352, 'V-S1', 'f', 'k', 'r', 'tafakkara', 'yatafakkaru', 'tafakkar', 'to reflect, to think'),
+    (353, 'V-S1', 'r', 'b', 'S', 'tarabbasa', 'yatarabbasu', 'tarabbas', 'to lurk'),
+
+
+    (354, 'V-A1', 'w', 'k','l', 'tawakkala', 'yatawakkalu', 'tawakkal', 'to trust'),
+
+
+    (355, 'V-H2', 'b', 'y', 'n', 'tabayyana', 'yatabayyanu', 'tabayyan', 'to become clear, to make clear'),
+
+
+    (356, 'V-W1', 'w', 'f', 'y', 'tawaffaa', 'yatawaffaa', 'tawaffa', 'to let die'),
+    (357, 'V-W1', 'w', 'l', 'y', 'tawallaa', 'yatawallaa', 'tawalla', 'to take charge of, to turn away'),
+
+
+    (358, 'V-D2', 'l', 'q', 'y', 'talaqqaa', 'yatalaqqaa', 'talaqqa', 'to receive'),
+
+
+    (359, 'VI-S1', 'b', 'r', 'k', 'tabaaraka', 'yatabaaraku', 'tabaarak', 'to be  blessed'),
+
+
+    (360, 'VI-Z2', 's', '^', 'l', 'tasaa^ala', 'yatasaa^alu', 'tasaa^al', 'to ask each other'),
+
+
+    (361, 'VI-D1', 'ɛ', 'l', 'w', 'taɛaalaa', 'yataɛaalaa', 'taɛaala', 'to be exalted, to be high'),
+
+
+    (362, 'VII-S1', 'q', 'l', 'b', 'inqalaba', 'yanqalibu', 'inqalib', 'to turn over, to turn around, to return'),
+    (363, 'VII-S1', 'b', 'ɛ', 'th', 'inbaɛatha', 'yanbaɛithu', 'inbaɛith', 'to be emitted'),
+    (364, 'VII-S1', 'k', 's', 'r', 'inkasara', 'yankasiru', 'inkasir', 'to be broken'),
+
+
+    (365, 'VII-D1', 'b', 'gh', 'y', 'inbaghaa', 'yanbaghee', 'inbaghi', 'to be necessary, to be proper')
 
 
 
