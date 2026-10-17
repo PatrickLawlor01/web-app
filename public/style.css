@@ -8,6 +8,10 @@ a {
     text-decoration: none;
 }
 
+h3 {
+    color: #216667;
+}
+
 body {
     margin: 0;
     padding: 2rem;
@@ -66,5 +70,16 @@ tbody tr:last-child td {
     td {
         padding: 0.75rem 0.85rem;
     }
+}
+
+
+.outer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid-inner { 
+    border: 0.5px solid grey;
+    padding: 0.5em;
 }
 
