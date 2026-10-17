@@ -528,40 +528,117 @@ INSERT INTO verbs3 (id, category, root1_e, root2_e, root3_e, basic_e, basicp_e, 
 
 
     (340, 'V-S1', 'm', 't', 'ɛ', 'tamattaɛa', 'yatamattaɛu', 'tamattaɛ', 'to enjoy'),
-    (350, 'V-S1', 'q', 'b', 'l', 'taqabbala', 'yataqabbalu', 'taqabbal', 'to accept'),
-    (351, 'V-S1', 'dh', 'k', 'r', 'tadhakkara', 'yatadhakkaru', 'tadhakkar', 'to remember, to recall'),
-    (352, 'V-S1', 'f', 'k', 'r', 'tafakkara', 'yatafakkaru', 'tafakkar', 'to reflect, to think'),
-    (353, 'V-S1', 'r', 'b', 'S', 'tarabbasa', 'yatarabbasu', 'tarabbas', 'to lurk'),
+    (341, 'V-S1', 'q', 'b', 'l', 'taqabbala', 'yataqabbalu', 'taqabbal', 'to accept'),
+    (342, 'V-S1', 'dh', 'k', 'r', 'tadhakkara', 'yatadhakkaru', 'tadhakkar', 'to remember, to recall'),
+    (343, 'V-S1', 'f', 'k', 'r', 'tafakkara', 'yatafakkaru', 'tafakkar', 'to reflect, to think'),
+    (344, 'V-S1', 'r', 'b', 'S', 'tarabbasa', 'yatarabbasu', 'tarabbas', 'to lurk'),
 
 
-    (354, 'V-A1', 'w', 'k','l', 'tawakkala', 'yatawakkalu', 'tawakkal', 'to trust'),
+    (345, 'V-A1', 'w', 'k','l', 'tawakkala', 'yatawakkalu', 'tawakkal', 'to trust'),
 
 
-    (355, 'V-H2', 'b', 'y', 'n', 'tabayyana', 'yatabayyanu', 'tabayyan', 'to become clear, to make clear'),
+    (346, 'V-H2', 'b', 'y', 'n', 'tabayyana', 'yatabayyanu', 'tabayyan', 'to become clear, to make clear'),
 
 
-    (356, 'V-W1', 'w', 'f', 'y', 'tawaffaa', 'yatawaffaa', 'tawaffa', 'to let die'),
-    (357, 'V-W1', 'w', 'l', 'y', 'tawallaa', 'yatawallaa', 'tawalla', 'to take charge of, to turn away'),
+    (347, 'V-W1', 'w', 'f', 'y', 'tawaffaa', 'yatawaffaa', 'tawaffa', 'to let die'),
+    (348, 'V-W1', 'w', 'l', 'y', 'tawallaa', 'yatawallaa', 'tawalla', 'to take charge of, to turn away'),
 
 
-    (358, 'V-D2', 'l', 'q', 'y', 'talaqqaa', 'yatalaqqaa', 'talaqqa', 'to receive'),
+    (349, 'V-D2', 'l', 'q', 'y', 'talaqqaa', 'yatalaqqaa', 'talaqqa', 'to receive'),
 
 
-    (359, 'VI-S1', 'b', 'r', 'k', 'tabaaraka', 'yatabaaraku', 'tabaarak', 'to be  blessed'),
+    (350, 'VI-S1', 'b', 'r', 'k', 'tabaaraka', 'yatabaaraku', 'tabaarak', 'to be  blessed'),
 
 
-    (360, 'VI-Z2', 's', '^', 'l', 'tasaa^ala', 'yatasaa^alu', 'tasaa^al', 'to ask each other'),
+    (351, 'VI-Z2', 's', '^', 'l', 'tasaa^ala', 'yatasaa^alu', 'tasaa^al', 'to ask each other'),
 
 
-    (361, 'VI-D1', 'ɛ', 'l', 'w', 'taɛaalaa', 'yataɛaalaa', 'taɛaala', 'to be exalted, to be high'),
+    (352, 'VI-D1', 'ɛ', 'l', 'w', 'taɛaalaa', 'yataɛaalaa', 'taɛaala', 'to be exalted, to be high'),
 
 
-    (362, 'VII-S1', 'q', 'l', 'b', 'inqalaba', 'yanqalibu', 'inqalib', 'to turn over, to turn around, to return'),
-    (363, 'VII-S1', 'b', 'ɛ', 'th', 'inbaɛatha', 'yanbaɛithu', 'inbaɛith', 'to be emitted'),
-    (364, 'VII-S1', 'k', 's', 'r', 'inkasara', 'yankasiru', 'inkasir', 'to be broken'),
+    (353, 'VII-S1', 'q', 'l', 'b', 'inqalaba', 'yanqalibu', 'inqalib', 'to turn over, to turn around, to return'),
+    (354, 'VII-S1', 'b', 'ɛ', 'th', 'inbaɛatha', 'yanbaɛithu', 'inbaɛith', 'to be emitted'),
+    (355, 'VII-S1', 'k', 's', 'r', 'inkasara', 'yankasiru', 'inkasir', 'to be broken'),
 
 
-    (365, 'VII-D1', 'b', 'gh', 'y', 'inbaghaa', 'yanbaghee', 'inbaghi', 'to be necessary, to be proper')
+    (356, 'VII-D1', 'b', 'gh', 'y', 'inbaghaa', 'yanbaghee', 'inbaghi', 'to be necessary, to be proper'), 
+
+
+    (357, 'VIII-S1', 'kh', 'l', 'f', 'ikhtalafa', 'yakhtalifu', 'ikhtalif', 'to differ'),
+    (358, 'VIII-S1', 'j', 'n', 'b', 'ijtanaba', 'yajtanibu', 'ijtanib', 'to avoid'),
+    (359, 'VIII-S1', 's', 'm', 'ɛ', 'istamaɛa', 'yastamiɛu', 'istamiɛ', 'to listen'),
+
+
+    (360, 'VIII-S2', 't', 'b', 'ɛ', 'ittabaɛa', 'yattabiɛu', 'ittabiɛ', 'to follow'),
+
+
+    (361, 'VIII-Z2', 't', 'kh', 'dh', 'ittakhadha', 'yattakhidhu', 'ittakhidh', 'to take, to adopt'),
+
+
+    (362, 'VIII-G2', 'D', 'r', 'r', 'iDTarra', 'yaDTarru', 'iDTarra / iDTarir', 'to force, to compel'),
+
+
+    (363, 'VIII-H1', 'r', 'w', 'b', 'irtaaba', 'yartaabu', 'irtab', 'to have doubt'),
+
+
+    (364, 'VIII-H4', 'z', 'd', 'd', 'izdaada', 'yazdaadu', 'izdad', 'to increase'),
+
+
+    (365, 'VIII-D1', 'ɛ', 'd', 'w', 'iɛtadaa', 'yaɛtadee', 'iɛtadi', 'to attack, to transgress'),
+
+
+    (366, 'VIII-D2', 'j', 'b', 'y', 'ijtabaa', 'yajtabee', 'ijtabi', 'to choose'),
+    (367, 'VIII-D2', 'n', 'h', 'y', 'intahaa', 'yantahee', 'intahi', 'to end, to refrain, to cease'),
+    (368, 'VIII-D2', 'sh', 'r', 'y', 'ishtaraa', 'yashtaree', 'ishtari', 'to buy, to exchange'),
+    (369, 'VIII-D2', 'h', 'd', 'y', 'ihtadaa', 'yahtadee', 'ihtadi', 'to find the way, to be guided'),
+    (370, 'VIII-D2', 'b', 'gh', 'y', 'ibtaghaa', 'yabtaghee', 'ibtaghi', 'to seek, to desire'),
+
+    (371, 'VIII-D2', 'l', 'q', 'y', 'iltaqaa', 'yaltaqee', 'iltaqi', 'to meet'),
+    (372, 'VIII-D2', 'S', 'f', 'y', 'iSTafaa', 'yaSTafee', 'iSTafi', 'to choose'),
+    (373, 'VIII-D2', 't', 'q', 'y', 'ittaqaa', 'yattaqee', 'ittaqi', 'to have Taqwa'),
+    (374, 'VIII-D2', 'sh', 'h', 'y', 'ishtahaa', 'yashtahee', 'ishtahi', 'to desire'),
+
+
+    (375, 'VIII-W2', 's', 'w', 'y', 'istawaa', 'yastawee', 'istawi', 'to be equal, to establish'),
+
+
+    (376, 'IX-H1', 's', 'w', 'd', 'iswadda', 'yaswaddu', 'iswadda / iswadid', 'to become black'),
+
+
+    (377, 'IX-H2', 'b', 'y', 'D', 'ibyaDDa', 'yabyaDDu', 'ibyaDDa / ibyaDiD', 'to become white'), 
+
+
+    (378, 'X-S1', 'k', 'b', 'r', 'istakbara', 'yastakbiru', 'istakbir', 'to grow arrogant, to act arrogantly'),
+    (379, 'X-S1', 'ɛ', 'j', 'l', 'istaɛjala', 'yastaɛjilu', 'istaɛjil', 'to rush, to seek to hasten'),
+    (380, 'X-S1', 'gh', 'f', 'r', 'istaghfara', 'yastaghfiru', 'istaghfir', 'to ask forgiveness'),
+    (381, 'X-S1', 'ɛ', 'l', 'm', 'istaɛlama', 'astaɛlimu', 'istaɛlim', 'to inquire'),
+    (382, 'X-S1', 'ɛ', 'm', 'l', 'istaɛmala', 'yastaɛmilu', 'istaɛmil', 'to use'),
+
+
+    (383, 'X-Z1', '^', 'dh', 'n', 'ista^dhana', 'yasta^dhinu', 'ista^dhin', 'to ask permission'),
+    (384, 'X-Z1', '^', 'j', 'r', 'ista^jara', 'yasta^jiru', 'ista^jir', 'to hire'),
+
+
+    (385, 'X-Z3', 'h', 'z', '^', 'istahza^a', 'yastahzi^u', 'istahzi^', 'to mock, to scorn'),
+
+
+    (386, 'X-H1', 'T', 'w', 'ɛ', 'istaTaaɛa', 'yastaTeeɛu', 'istatiɛ', 'to be able to'),
+    (387, 'X-H1', 'q', 'w', 'm', 'istaqaama', 'yastaqeemu', 'istaqim', 'to straighten, to be upright'),
+    (388, 'X-H1', 'j', 'w', 'b', 'istajaaba', 'yastajeebu', 'istajib', 'to respond to'),
+    (389, 'X-H1', 'H', 'w', 'b', 'istaHaaba', 'yastaHeebu', 'istaHib', 'to prefer'),
+
+
+    (390, 'X-W3', 'H', 'y', 'y', 'istaHyaa', 'yastaHyee', 'istaHyi', 'to feel embarrassed, to be ashamed'),
+
+
+    (391, 'X-D1', 'f', 't', 'w', 'istaftaa', 'yastaftee', 'istafti', 'to consult, to seek a ruling'),
+    (392, 'X-D1', 'gh', 'sh', 'w', 'istaghshaa', 'yastaghshee', 'istaghshi', 'to get covered up'),
+
+
+    (393, 'X-D2', 'gh', 'n', 'y', 'istaghnaa', 'yastaghnee', 'istaghni', 'to dispense with, to consider oneself self-sufficient')
+
+
+
 
 
 
