@@ -349,7 +349,186 @@ INSERT INTO verbs3 (id, category, root1_e, root2_e, root3_e, basic_e, basicp_e, 
     (221, 'I-D4', 'n', 'h', 'w', 'nahaa', 'yanhaa', 'inha', 'to forbid'),
     (222, 'I-D4', 's', 'ɛ', 'w', 'saɛaa', 'yasɛaa', 'isɛa', 'to strive'),
     (223, 'I-D4', 'T', 'gh', 'w', 'Taghaa', 'yaTghaa', 'iTgha', 'to oppress, to transgress, to overflow'),
-    (224, 'I-D4', 'S', 'l', 'w', 'Salaa', 'yaSlaa', 'iSla', 'to burn')
+    (224, 'I-D4', 'S', 'l', 'w', 'Salaa', 'yaSlaa', 'iSla', 'to burn'),
+
+
+    (225, 'II-S1', 'd', 'm', 'r', 'dammara', 'yudammiru', 'dammir', 'to destroy'),
+    (226, 'II-S1', 'm', 'k', 'n', 'makkana', 'yumakkinu', 'makkin', 'to enable to'),
+    (227, 'II-S1', 'H', 'd', 'th', 'Haddatha', 'yuHaddithu', 'Haddith', 'to talk'),
+    (228, 'II-S1', 'th', 'b', 't', 'thabbata', 'yuthabbitu', 'thabbit', 'to fix, to make firm'),
+    (229, 'II-S1', 'T', 'l', 'q', 'Tallaqa', 'yuTalliqu', 'Talliq', 'to divorce'),
+
+    (230, 'II-S1', 'q', 'T', 'ɛ', 'qaTTaɛa', 'yuqaTTiɛu', 'qaTTiɛ', 'to cut into pieces, to divide'),
+    (231, 'II-S1', 'S', 'r', 'f', 'Sarrafa', 'yuSarrifu', 'Sarrif', 'to drain, to explain'),
+    (232, 'II-S1', 'b', 'sh', 'r', 'bashshara', 'yubashshiru', 'bashshir', 'to bring good news'),
+    (233, 'II-S1', 'b', 'd', 'l', 'baddala', 'yubaddilu', 'baddil', 'to change'),
+    (234, 'II-S1', 'q', 'd', 'r', 'qaddara', 'yuqadiru', 'qaddir', 'to estimate, to determine, to plot'),
+
+    (235, 'II-S1', 'k', 'l', 'm', 'kallama', 'yukallimu', 'kallim', 'to speak to'),
+    (236, 'II-S1', 'dh', 'k', 'r', 'dhakkara', 'yudhakkiru', 'dhakkir', 'to remind'),
+    (237, 'II-S1', 'H', 'r', 'm', 'Harrama', 'yuHarrimu', 'Harrim', 'to prohibi, to forbid'),
+    (238, 'II-S1', 'm', 't', 'ɛ', 'mattaɛa', 'yumattiɛu', 'mattiɛ', 'to make enjoy, to grant, to bestow'),
+    (239, 'II-S1', 'n', 'z', 'l', 'nazzala', 'yunazzilu', 'nazzil', 'to lower, to send down'),
+
+    (240, 'II-S1', 'k', 'dh', 'b', 'kadhdhaba', 'yukadhdhibu', 'kadhdhib', 'to accuse of lying'),
+    (241, 'II-S1', 'q', 'd', 'm', 'qaddama', 'yuqaddimu', 'qaddim', 'to offer, to send forward'),
+    (242, 'II-S1', 'ɛ', 'l', 'm', 'ɛallama', 'yuɛallimu', 'ɛallim', 'to teach'),
+    (243, 'II-S1', 'ɛ', 'dh', 'b', 'ɛadhdhaba', 'yuɛadhdhibu', 'ɛadhdhib', 'to torture, to punish'),
+    (244, 'II-S1', 'S', 'd', 'q', 'Saddaqa', 'yuSaddiqu', 'Saddiq', 'to believe, to affirm, to conirm, to attest'),
+
+    (245, 'II-S1', 's', 'kh', 'r', 'sakhkhara', 'yusakhkhiru', 'sakhkhir', 'to subjugate, to bring under control'),
+    (246, 'II-S1', 's', 'b', 'H', 'sabbaHa', 'yusabbiHu', 'sabbiH', 'to glorify, to praise'),
+    (247, 'II-S1', 'k', 'f', 'r', 'kaffara', 'yukaffiru', 'kaffir', 'to remove'),
+
+
+    (248, 'II-Z1', '^', 'kh', 'r', '^akhkhara', 'yu^akhkhiru', '^akhkhir', 'to delay, to give respite'),
+
+
+    (249, 'II-A2', 'y', 's', 'r', 'yassara', 'yuyassiru', 'yassir', 'to facilitate, to make easy'),
+
+
+    (250, 'II-H2', 'b', 'y', 'n', 'bayyana', 'yubayyinu', 'bayyin', 'to show'),
+    (251, 'II-H2', 'z', 'y', 'n', 'zayyana', 'yuzayyinu', 'zayyin', 'to embellish, to adorn, to make seem fair'),
+
+
+    (252, 'II-W1', 's', 'w', 'y', 'sawwaa', 'yusawwee', 'sawwi', 'to flatten, to fashion, to proprotion'),
+
+
+    (253, 'II-W3', '^', 'y', 'd', '^ayyada', 'yu^ayyidu', '^ayyid', 'to support, to strengthen'),
+
+
+    (254, 'II-W5', 'w', 'l', 'y', 'wallaa', 'yuwallee', 'walli', 'to walk away, to turn back'),
+    (255, 'II-W5', 'w', 'S', 'y', 'waSSaa', 'yuwaSSee', 'waSSi', 'to enjoin'),
+    (256, 'II-W5', 'w', 'f', 'y', 'waffaa', 'yuwaffee', 'waffi', 'to fulfil, to pay in full'),
+    
+    
+    (257, 'II-W6', 'H', 'y', 'y', 'Hayyaa', 'yuHayyee', 'Hayyi', 'to greet'),
+
+
+    (258, 'II-D1', 's', 'm', 'w', 'sammaa', 'yusammee', 'sammi', 'to name'),
+    (259, 'II-D1', 'S', 'l', 'w', 'Sallaa', 'yuSallee', 'Salli', 'to pray'),
+    (260, 'II-D1', 'z', 'k', 'w', 'zakkaa', 'yuzakkee', 'zakki', 'to purify'),
+
+
+    (261, 'III-S1', 'q', 't', 'l', 'qaatala', 'yuqaatilu', 'qaatil', 'to fight'),
+    (262, 'III-S1', 'j', 'd', 'l', 'jaadala', 'yujaadilu', 'jaadil', 'to argue'),
+    (263, 'III-S1', 'j', 'h', 'd', 'jaahada', 'yujaahidu', 'jaahid', 'to strive'),
+    (264, 'III-S1', 'n', 'f', 'q', 'naafaqa', 'yunaafiqu', 'naafiq', 'to dissemble, to be a hypocrite'),
+    (265, 'III-S1', 'h', 'j', 'r', 'haajara', 'yuhaajiru', 'haajir', 'to emigrate'),
+
+    (266, 'III-S1', 'ɛ', 'h', 'd', 'ɛaahada', 'yuɛaahidu', 'ɛaahid', 'to make a covenant'),
+
+
+    (267, 'III-Z1', '^', 'kh', 'd', '^aakhadha', 'yu^aakhidhu', '^aakhidh', 'to call to account, to punish, to blame'),
+
+
+    (268, 'III-G1', 'H', 'j', 'j', 'Haajja', 'yuHaajju', 'Haajji', 'to argue, to debate'), 
+
+
+    (269, 'IV-S1', 'ɛ', 'j', 'b', 'aɛjaba', 'yuɛjibu', 'aɛjib', 'to appeal to, to please, to impress'),
+    (270, 'IV-S1', 's', 'm', 'ɛ', 'asmaɛa', 'yusmiɛu', 'asmiɛ', 'to make hear, to make listen'),
+    (271, 'IV-S1', 't', 'b', 'ɛ', 'atbaɛa', 'yutbiɛu', 'atbiɛ', 'to follow (up)'),
+    (272, 'IV-S1', 'ɛ', 'l', 'n', 'aɛlana', 'yuɛlinu', 'aɛlin', 'to announce, to declare, to reveal'),
+    (273, 'IV-S1', 'm', 's', 'k', 'amsaka', 'yumsiku', 'amsik', 'to seize, to retain, to withhold'),
+
+    (274, 'IV-S1', 'h', 'l', 'k', 'ahlaka', 'yuhliku', 'ahlik', 'to destroy'),
+    (275, 'IV-S1', 'n', 'k', 'r', 'ankara', 'yunkiru', 'ankir', 'to deny, to not recognise, to renounce'),
+    (276, 'IV-S1', 'n', 'f', 'q', 'anfaqa', 'yunfiqu', 'anfiq', 'to spend'),
+    (277, 'IV-S1', 'n', 'ɛ', 'm', 'anɛama', 'yunɛimu', 'anɛim', 'to bestow grace upon, to favour'),
+    (278, 'IV-S1', 'n', 'z', 'l', 'anzala', 'yunzilu', 'anzil', 'to send down'),
+
+    (279, 'IV-S1', 'n', 'dh', 'r', 'andhara', 'yundhiru', 'andhir', 'to warn'),
+    (280, 'IV-S1', 'n', 'b', 't', 'anbata', 'yunbitu', 'anbit', 'to grow plants'),
+    (281, 'IV-S1', 'f', 'l', 'H', 'aflaHa', 'yufliHu', 'afliH', 'to succeed'),
+    (282, 'IV-S1', 'f', 's', 'd', 'afsada', 'yufsidu', 'afsid', 'to spoil, to spread corruption'),
+    (283, 'IV-S1', 'gh', 'r', 'q', 'aghraqa', 'yughriqu', 'aghriq', 'to drown'),
+
+    (284, 'IV-S1', 'S', 'b', 'H', 'aSbaHa', 'yuSbiHu', 'aSbiH', 'to become, to reach a state'),
+    (285, 'IV-S1', 'S', 'l', 'H', 'aSlaHa', 'yuSliHu', 'aSliH', 'to correct, to become good, to make good'),
+    (286, 'IV-S1', 'ɛ', 'r', 'D', 'aɛraDa', 'yuɛriDu', 'aɛriD', 'to avoid, to turn away'),
+    (287, 'IV-S1', 'sh', 'r', 'k', 'ashraka', 'yushriku', 'ashrik', 'to ascribe a partner'),
+    (288, 'IV-S1', 's', 'l', 'm', 'aslama', 'yuslimu', 'aslim', 'to become a Muslim, to submit, to surrender'),
+
+    (289, 'IV-S1', 's', 'r', 'f', 'asrafa', 'yusrifu', 'asrif', 'to waste, to exceed, to be extravagant'),
+    (290, 'IV-S1', 'r', 's', 'l', 'arsala', 'yursilu', 'arsil', 'to send'),
+    (291, 'IV-S1', 'r', 'j', 'ɛ', 'arjaɛa', 'yurjiɛu', 'arjiɛ', 'to send back, to return'),
+    (292, 'IV-S1', 'd', 'kh', 'l', 'adkhala', 'yudkhilu', 'adkhil', 'to let in, to make one enter'),
+    (293, 'IV-S1', 'kh', 'r', 'j', 'akhraja', 'yukhriju', 'akhrij', 'to take out, to bring forh'),
+
+    (294, 'IV-S1', 'H', 's', 'n', 'aHsana', 'yuHsinu', 'aHsin', 'to do well, to do good, to do excellently'),
+    (295, 'IV-S1', 'b', 'S', 'r', 'abSara', 'yubSiru', 'abSir', 'to see, to watch'),
+    (296, 'IV-S1', 'kh', 'l', 'f', 'akhlafa', 'yukhlifu', 'akhlif', 'to break (a promise), to fail'),
+    (297, 'IV-S1', 'T', 'ɛ', 'm', 'aTɛama', 'yuTɛimu', 'aTɛim', 'to feed'),
+    (298, 'IV-S1', 'q', 's', 'm', 'aqsama', 'yuqsimu', 'aqsim', 'to swear'),
+
+    (299, 'IV-S1', 'n', 'TH', 'r', 'anTHara', 'yunTHiru', 'anTHir', 'to give respite'),
+    (300, 'IV-S1', 'ɛ', 't', 'd', 'aɛtada', 'yuɛtidu', 'aɛtid', 'to prepare'),
+    (301, 'IV-S1', 'dh', 'h', 'b', 'adhhaba', 'yudhhibu', 'adhhib', 'to remove'),
+
+
+    (302, 'IV-Z3', 'n', 'sh', '^', 'ansha^a', 'yunshi^u', 'anshi^', 'to extablish, to produce, to create, to raise'),
+    (303, 'IV-Z3', 'n', 'b', '^', 'anba^a', 'yunbi^u', 'anbi^', 'to inform'),
+    (304, 'IV-Z3', 'q', 'r', '^', 'aqra^a', 'yuqri^u', 'aqri^', 'to make read'),
+
+
+    (305, 'IV-G1', 'ɛ', 'd', 'd', 'aɛadda', 'yuɛiddu', 'aɛidda', 'to prepare'),
+    (306, 'IV-G1', 'm', 'd', 'd', 'amadda', 'yumiddu', 'amidda', 'to provide, to reinforce, to extend'),
+    (307, 'IV-G1', 'D', 'l', 'l', 'aDalla', 'yuDillu', 'aDilla', 'to mislead, to misguide'),
+    (308, 'IV-G1', 's', 'r', 'r', 'asarra', 'yusirru', 'asirra', 'to gladden, to hide'),
+    (309, 'IV-G1', 'H', 'b', 'b', 'aHabba', 'yuHibbu', 'aHibba', 'to love'),
+
+    (310, 'IV-G1', 'D', 'r', 'r', 'aDarra', 'yuDirru', 'aDirra', 'to damage'),
+
+
+    (311, 'IV-A1', 'w', 'r', 'th', 'awratha', 'yoorithu', 'awrith', 'to make one inherit'),
+    (312, 'IV-A1', 'w', 'l', 'j', 'awlaja', 'yooliju', 'awlij', 'to cause to enter'),
+
+
+    (313, 'IV-A2', 'y', 'q', 'n', 'ayqana', 'yooqinu', 'ayqin', 'to be certain, to believe firmly'),
+
+
+    (314, 'IV-H1', 'r', 'w', 'd', 'araada', 'yureedu', 'arid', 'to want'),
+    (315, 'IV-H1', 'H', 'w', 'T', 'aHaaTa', 'yuHeeTu', 'aHiT', 'to surround, to encompass'),
+    (316, 'IV-H1', 'ɛ', 'w', 'd', 'aɛaada', 'yuɛeedu', 'aɛid', 'to repeat, to return'),
+    (317, 'IV-H1', 'T', 'w', 'ɛ', 'aTaaɛa', 'yuTeeɛu', 'aTiɛ', 'to obey'),
+    (318, 'IV-H1', 'S', 'w', 'b', 'aSaaba', 'yuSeebu', 'aSib', 'to hit, to befall, to strike'),
+
+    (319, 'IV-H1', 'q', 'w', 'm', 'aqaama', 'yuqeemu', 'aqim', 'to stay, to establish'),
+    (320, 'IV-H1', 'm', 'w', 't', 'amaata', 'yumeetu', 'amit', 'to cause to die'),
+    (321, 'IV-H1', 'dh', 'w', 'q', 'adhaaqa', 'yudheequ', 'adhiq', 'to make taste'),
+    (322, 'IV-H1', 'n', 'w', 'b', 'anaaba', 'yuneebu', 'anib', 'to turn'),
+    (323, 'IV-H1', 'z', 'w', 'l', 'azaala', 'yuzeelu', 'azil', 'to remove'),
+
+
+    (324, 'IV-H2', 'D', 'y', 'ɛ', 'aDaaɛa', 'yuDeeɛu', 'aDiɛ', 'to lose, to be wasted, to neglect'),
+
+
+    (325, 'IV-W1', 'w', 'f', 'y', 'awfaa', 'yoofee', 'awfi', 'to give to the full, to fulfill'),
+    (326, 'IV-W1', 'w', 'H', 'y', 'awHaa', 'yooHee', 'awHi', 'to inspire'),
+
+
+    (327, 'IV-W4', '^', 't', 'y', '^ataa', 'yu^tee', '^ati', 'to bring'),
+    (328, 'IV-W4', '^', 'dh', 'y', '^adhaa', 'yu^dhee', '^adhi', 'to harm, to trouble'),
+    
+
+    (329, 'IV-D1', 'b', 'd', 'w', 'abdaa', 'yubdee', 'abdi', 'to express, to reveal, to disclose'),
+    (330, 'IV-D1', 'n', 'j', 'w', 'anjaa', 'yunjee', 'anji', 'to save'),
+    (331, 'IV-D1', 'ɛ', 'T', 'w', 'aɛTaa', 'yuɛTee', 'aɛTi', 'to give'),
+    (332, 'IV-D1', 'H', 'S', 'w', 'aHSaa', 'yuHSee', 'aHSi', 'to count, to calculate'),
+    (333, 'IV-D1', 'kh', 'z', 'w', 'akhzaa', 'yukhzee', 'akhzi', 'to disgrace'),
+
+    (334, 'IV-D1', 'd', 'r', 'w', 'adraa', 'yudree', 'adri', 'to make known'),
+    (335, 'IV-D1', 'n', 's', 'w', 'ansaa', 'yunsee', 'ansi', 'to make forget'),
+
+
+    (336, 'IV-D2', 'kh', 'f', 'y', 'akhfaa', 'yukhfee', 'akhfi', 'to hide, to conceal'),
+    (337, 'IV-D2', 'gh', 'n', 'y', 'aghnaa', 'yughnee', 'aghni', 'to enrich, to avail'),
+    (338, 'IV-D2', 'l', 'q', 'y', 'alqaa', 'yulqee', 'alqi', 'to throw'),
+    (339, 'IV-D2', 'ɛ', 'm', 'y', 'aɛmaa', 'yuɛmee', 'aɛmi', 'to blind')
+
+
+
+
 
 ;    
 -- cat ./dbconfig/create_table_verbs.sql | docker exec -i postgres psql -U postgres -d webapp
