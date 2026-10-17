@@ -8,18 +8,23 @@
 </head>
 <body>
 
+    <h3>Verb category: <%= data[0].category %></h3>
+
+    <a href="/">Return to main menu</a><br/><br/><br/>
+
     <table>
         <thead>
             <tr>
-                <th>Basic past tense</th><th>Basic present tense</th><th>Imperative</th><th>Translation</th>
+                <th>#</th><th>Basic past tense</th><th>Basic present tense</th><th>Imperative</th><th>Translation</th>
             </tr>
         </thead>
         <tbody>
 
-            <% data.forEach(row => { %>
+            <%  let count = 1;
+                data.forEach(row => { %>
 
                 <tr>
-                    <td><%= row.basic_e %></td><td><%= row.basicp_e %></td><td><%= row.basici_e%></td><td><%= row.translate %></td>
+                    <td><%= count++ %></td><td><%= row.basic_e %></td><td><%= row.basicp_e %></td><td><%= row.basici_e%></td><td><%= row.translate %></td>
                 </tr>
 
             <% }) %>

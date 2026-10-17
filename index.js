@@ -8,6 +8,7 @@ import { router as I_S3Router } from './Verbs(I-S3)/index.js';
 import { router as I_S4Router } from './Verbs(I-S4)/index.js';
 import { router as I_S5Router } from './Verbs(I-S5)/index.js';
 import { router as I_S8Router } from './Verbs(I-S8)/index.js';
+import { router as verbsRouter } from './verbs/index.js';
 
 import path from 'path';
 import { dirname } from 'path';
@@ -23,12 +24,8 @@ app.use(morgan('common', {immediate: true}));
 
 app.use(express.urlencoded({extended: false}));
 
-app.use('/verbs-I-S1', I_S1Router);
-app.use('/verbs-I-S2', I_S2Router);
-app.use('/verbs-I-S3', I_S3Router);
-app.use('/verbs-I-S4', I_S4Router);
-app.use('/verbs-I-S5', I_S5Router);
-app.use('/verbs-I-S8', I_S8Router);
+app.use('/verbs', verbsRouter);
+
 
 
 app.get('/', (req, res) => {
