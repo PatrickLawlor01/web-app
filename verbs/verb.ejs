@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= data.basic_e %></title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+    Verb conjugation: <%= data.basic_e %> <i><%= data.translate %></i> <br/><br/>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nominals</th><th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Active Participle</td><td><%= conj.activeParticiple() %></td>
+            </tr>
+            <tr>
+                <td>Passive Participle</td><td><%= conj.passiveParticiple() %></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br/><br/>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Past Active</th><th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>3SM</td><td><%= conj.past.ms3() %></td>
+            </tr><tr>
+                <td>3DM</td><td><%= conj.past.md3() %></td>
+            </tr><tr>
+                <td>3PM</td><td><%= conj.past.mp3() %></td>
+            </tr><tr>
+                <td>3SF</td><td><%= conj.past.fs3() %></td>
+            </tr><tr>
+                <td>3DF</td><td><%= conj.past.fd3() %></td>
+            </tr><tr>
+                <td>3PF</td><td><%= conj.past.fp3() %></td>
+            </tr><tr>
+                <td>2SM</td><td><%= conj.past.ms2() %></td>
+            </tr><tr>
+                <td>2D</td><td><%= conj.past.d2() %></td>
+            </tr><tr>
+                <td>2PM</td><td><%= conj.past.mp2() %></td>
+            </tr><tr>
+                <td>2SF</td><td><%= conj.past.fs2() %></td>
+            </tr><tr>
+                <td>2PF</td><td><%= conj.past.fp2() %></td>
+            </tr><tr>
+                <td>1S</td><td><%= conj.past.s1() %></td>
+            </tr><tr>
+                <td>1P</td><td><%= conj.past.p1() %></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br/><br/>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Present Active</th><th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>3SM</td><td><%= conj.present.ms3() %></td>
+            </tr><tr>
+                <td>3DM</td><td><%= conj.present.md3() %></td>
+            </tr><tr>
+                <td>3PM</td><td><%= conj.present.mp3() %></td>
+            </tr><tr>
+                <td>3SF</td><td><%= conj.present.fs3() %></td>
+            </tr><tr>
+                <td>3DF</td><td><%= conj.present.fd3() %></td>
+            </tr><tr>
+                <td>3PF</td><td><%= conj.present.fp3() %></td>
+            </tr><tr>
+                <td>2SM</td><td><%= conj.present.ms2() %></td>
+            </tr><tr>
+                <td>2D</td><td><%= conj.present.d2() %></td>
+            </tr><tr>
+                <td>2PM</td><td><%= conj.present.mp2() %></td>
+            </tr><tr>
+                <td>2SF</td><td><%= conj.present.fs2() %></td>
+            </tr><tr>
+                <td>2PF</td><td><%= conj.present.fp2() %></td>
+            </tr><tr>
+                <td>1S</td><td><%= conj.present.s1() %></td>
+            </tr><tr>
+                <td>1P</td><td><%= conj.present.p1() %></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br/><br/>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nasb Active</th><th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>3SM</td><td><%= conj.nasbActive.ms3() %></td>
+            </tr><tr>
+                <td>3DM</td><td><%= conj.nasbActive.md3() %></td>
+            </tr><tr>
+                <td>3PM</td><td><%= conj.nasbActive.mp3() %></td>
+            </tr><tr>
+                <td>3SF</td><td><%= conj.nasbActive.fs3() %></td>
+            </tr><tr>
+                <td>3DF</td><td><%= conj.nasbActive.fd3() %></td>
+            </tr><tr>
+                <td>3PF</td><td><%= conj.nasbActive.fp3() %></td>
+            </tr><tr>
+                <td>2SM</td><td><%= conj.nasbActive.ms2() %></td>
+            </tr><tr>
+                <td>2D</td><td><%= conj.nasbActive.d2() %></td>
+            </tr><tr>
+                <td>2PM</td><td><%= conj.nasbActive.mp2() %></td>
+            </tr><tr>
+                <td>2SF</td><td><%= conj.nasbActive.fs2() %></td>
+            </tr><tr>
+                <td>2PF</td><td><%= conj.nasbActive.fp2() %></td>
+            </tr><tr>
+                <td>1S</td><td><%= conj.nasbActive.s1() %></td>
+            </tr><tr>
+                <td>1P</td><td><%= conj.nasbActive.p1() %></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <br/><br/>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Jasm Active</th><th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>3SM</td><td><%= conj.jasmActive.ms3() %></td>
+            </tr><tr>
+                <td>3DM</td><td><%= conj.jasmActive.md3() %></td>
+            </tr><tr>
+                <td>3PM</td><td><%= conj.jasmActive.mp3() %></td>
+            </tr><tr>
+                <td>3SF</td><td><%= conj.jasmActive.fs3() %></td>
+            </tr><tr>
+                <td>3DF</td><td><%= conj.jasmActive.fd3() %></td>
+            </tr><tr>
+                <td>3PF</td><td><%= conj.jasmActive.fp3() %></td>
+            </tr><tr>
+                <td>2SM</td><td><%= conj.jasmActive.ms2() %></td>
+            </tr><tr>
+                <td>2D</td><td><%= conj.jasmActive.d2() %></td>
+            </tr><tr>
+                <td>2PM</td><td><%= conj.jasmActive.mp2() %></td>
+            </tr><tr>
+                <td>2SF</td><td><%= conj.jasmActive.fs2() %></td>
+            </tr><tr>
+                <td>2PF</td><td><%= conj.jasmActive.fp2() %></td>
+            </tr><tr>
+                <td>1S</td><td><%= conj.jasmActive.s1() %></td>
+            </tr><tr>
+                <td>1P</td><td><%= conj.jasmActive.p1() %></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br/><br/>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Future</th><th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>3SM</td><td><%= conj.future.ms3() %></td>
+            </tr><tr>
+                <td>3DM</td><td><%= conj.future.md3() %></td>
+            </tr><tr>
+                <td>3PM</td><td><%= conj.future.mp3() %></td>
+            </tr><tr>
+                <td>3SF</td><td><%= conj.future.fs3() %></td>
+            </tr><tr>
+                <td>3DF</td><td><%= conj.future.fd3() %></td>
+            </tr><tr>
+                <td>3PF</td><td><%= conj.future.fp3() %></td>
+            </tr><tr>
+                <td>2SM</td><td><%= conj.future.ms2() %></td>
+            </tr><tr>
+                <td>2D</td><td><%= conj.future.d2() %></td>
+            </tr><tr>
+                <td>2PM</td><td><%= conj.future.mp2() %></td>
+            </tr><tr>
+                <td>2SF</td><td><%= conj.future.fs2() %></td>
+            </tr><tr>
+                <td>2PF</td><td><%= conj.future.fp2() %></td>
+            </tr><tr>
+                <td>1S</td><td><%= conj.future.s1() %></td>
+            </tr><tr>
+                <td>1P</td><td><%= conj.future.p1() %></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <br/><br/>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Imperative</th><th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2SM</td><td><%= conj.imperative.ms2() %></td>
+            </tr><tr>
+                <td>2D</td><td><%= conj.imperative.d2() %></td>
+            </tr><tr>
+                <td>2PM</td><td><%= conj.imperative.mp2() %></td>
+            </tr><tr>
+                <td>2SF</td><td><%= conj.imperative.fs2() %></td>
+            </tr><tr>
+                <td>2PF</td><td><%= conj.imperative.fp2() %></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br/><br/>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Past Passive</th><th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>3SM</td><td><%= conj.pastPassive.ms3() %></td>
+            </tr><tr>
+                <td>3DM</td><td><%= conj.pastPassive.md3() %></td>
+            </tr><tr>
+                <td>3PM</td><td><%= conj.pastPassive.mp3() %></td>
+            </tr><tr>
+                <td>3SF</td><td><%= conj.pastPassive.fs3() %></td>
+            </tr><tr>
+                <td>3DF</td><td><%= conj.pastPassive.fd3() %></td>
+            </tr><tr>
+                <td>3PF</td><td><%= conj.pastPassive.fp3() %></td>
+            </tr><tr>
+                <td>2SM</td><td><%= conj.pastPassive.ms2() %></td>
+            </tr><tr>
+                <td>2D</td><td><%= conj.pastPassive.d2() %></td>
+            </tr><tr>
+                <td>2PM</td><td><%= conj.pastPassive.mp2() %></td>
+            </tr><tr>
+                <td>2SF</td><td><%= conj.pastPassive.fs2() %></td>
+            </tr><tr>
+                <td>2PF</td><td><%= conj.pastPassive.fp2() %></td>
+            </tr><tr>
+                <td>1S</td><td><%= conj.pastPassive.s1() %></td>
+            </tr><tr>
+                <td>1P</td><td><%= conj.pastPassive.p1() %></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br/><br/>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Present Passive</th><th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>3SM</td><td><%= conj.presentPassive.ms3() %></td>
+            </tr><tr>
+                <td>3DM</td><td><%= conj.presentPassive.md3() %></td>
+            </tr><tr>
+                <td>3PM</td><td><%= conj.presentPassive.mp3() %></td>
+            </tr><tr>
+                <td>3SF</td><td><%= conj.presentPassive.fs3() %></td>
+            </tr><tr>
+                <td>3DF</td><td><%= conj.presentPassive.fd3() %></td>
+            </tr><tr>
+                <td>3PF</td><td><%= conj.presentPassive.fp3() %></td>
+            </tr><tr>
+                <td>2SM</td><td><%= conj.presentPassive.ms2() %></td>
+            </tr><tr>
+                <td>2D</td><td><%= conj.presentPassive.d2() %></td>
+            </tr><tr>
+                <td>2PM</td><td><%= conj.presentPassive.mp2() %></td>
+            </tr><tr>
+                <td>2SF</td><td><%= conj.presentPassive.fs2() %></td>
+            </tr><tr>
+                <td>2PF</td><td><%= conj.presentPassive.fp2() %></td>
+            </tr><tr>
+                <td>1S</td><td><%= conj.presentPassive.s1() %></td>
+            </tr><tr>
+                <td>1P</td><td><%= conj.presentPassive.p1() %></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br/><br/>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nasb Passive</th><th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>3SM</td><td><%= conj.nasbPassive.ms3() %></td>
+            </tr><tr>
+                <td>3DM</td><td><%= conj.nasbPassive.md3() %></td>
+            </tr><tr>
+                <td>3PM</td><td><%= conj.nasbPassive.mp3() %></td>
+            </tr><tr>
+                <td>3SF</td><td><%= conj.nasbPassive.fs3() %></td>
+            </tr><tr>
+                <td>3DF</td><td><%= conj.nasbPassive.fd3() %></td>
+            </tr><tr>
+                <td>3PF</td><td><%= conj.nasbPassive.fp3() %></td>
+            </tr><tr>
+                <td>2SM</td><td><%= conj.nasbPassive.ms2() %></td>
+            </tr><tr>
+                <td>2D</td><td><%= conj.nasbPassive.d2() %></td>
+            </tr><tr>
+                <td>2PM</td><td><%= conj.nasbPassive.mp2() %></td>
+            </tr><tr>
+                <td>2SF</td><td><%= conj.nasbPassive.fs2() %></td>
+            </tr><tr>
+                <td>2PF</td><td><%= conj.nasbPassive.fp2() %></td>
+            </tr><tr>
+                <td>1S</td><td><%= conj.nasbPassive.s1() %></td>
+            </tr><tr>
+                <td>1P</td><td><%= conj.nasbPassive.p1() %></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br/><br/>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Jasm Passive</th><th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>3SM</td><td><%= conj.jasmPassive.ms3() %></td>
+            </tr><tr>
+                <td>3DM</td><td><%= conj.jasmPassive.md3() %></td>
+            </tr><tr>
+                <td>3PM</td><td><%= conj.jasmPassive.mp3() %></td>
+            </tr><tr>
+                <td>3SF</td><td><%= conj.jasmPassive.fs3() %></td>
+            </tr><tr>
+                <td>3DF</td><td><%= conj.jasmPassive.fd3() %></td>
+            </tr><tr>
+                <td>3PF</td><td><%= conj.jasmPassive.fp3() %></td>
+            </tr><tr>
+                <td>2SM</td><td><%= conj.jasmPassive.ms2() %></td>
+            </tr><tr>
+                <td>2D</td><td><%= conj.jasmPassive.d2() %></td>
+            </tr><tr>
+                <td>2PM</td><td><%= conj.jasmPassive.mp2() %></td>
+            </tr><tr>
+                <td>2SF</td><td><%= conj.jasmPassive.fs2() %></td>
+            </tr><tr>
+                <td>2PF</td><td><%= conj.jasmPassive.fp2() %></td>
+            </tr><tr>
+                <td>1S</td><td><%= conj.jasmPassive.s1() %></td>
+            </tr><tr>
+                <td>1P</td><td><%= conj.jasmPassive.p1() %></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+</body>
+</html>

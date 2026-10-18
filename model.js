@@ -15,6 +15,14 @@ export async function getVerbs(category) {
     `;
 
     return data;
+}
 
 
+export async function getVerb(id) {
+
+    const data = sql`
+        SELECT * FROM verbs3 WHERE id = ${id};
+    `;
+
+    return data;
 }
