@@ -59,18 +59,23 @@ export class Conjugator_I_S5_e {
 
     jasmActive = {
         ms3: () => `ya${this.r1}${this.r2}u${this.r3}`,
+        ms3a: () => null,
         md3: () => `ya${this.r1}${this.r2}u${this.r3}aa`,
         mp3: () => `ya${this.r1}${this.r2}u${this.r3}oo`,
         fs3: () => `ta${this.r1}${this.r2}u${this.r3}`,
+        fs3a: () => null,
         fd3: () => `ta${this.r1}${this.r2}u${this.r3}aa`,
         fp3: () => `ya${this.r1}${this.r2}u${this.r3}na`,
         ms2: () => `ta${this.r1}${this.r2}u${this.r3}`,
+        ms2a: () => null,
         d2: () => `ta${this.r1}${this.r2}u${this.r3}aa`,
         mp2: () => `ta${this.r1}${this.r2}u${this.r3}oo`,
         fs2: () => `ta${this.r1}${this.r2}u${this.r3}ee`,
         fp2: () => `ta${this.r1}${this.r2}u${this.r3}na`,
         s1: () => `^a${this.r1}${this.r2}u${this.r3}`,
-        p1: () => `na${this.r1}${this.r2}u${this.r3}`
+        s1a: () => null,
+        p1: () => `na${this.r1}${this.r2}u${this.r3}`,
+        p1a: () => null
     };
 
     future = {
@@ -93,9 +98,13 @@ export class Conjugator_I_S5_e {
         ms2: () => `u${this.r1}${this.r2}u${this.r3}`,
         ms2a: () => null,
         d2: () => `u${this.r1}${this.r2}u${this.r3}aa`,
+        d2a: () => null,
         mp2: () => `u${this.r1}${this.r2}u${this.r3}oo`,
+        mp2a: () => null,
         fs2: () => `u${this.r1}${this.r2}u${this.r3}ee`,
-        fp2: () => `u${this.r1}${this.r2}u${this.r3}na`
+        fs2a: () => null,
+        fp2: () => `u${this.r1}${this.r2}u${this.r3}na`,
+        fp2a: () => null
     };
 
     pastPassive = {
@@ -112,22 +121,6 @@ export class Conjugator_I_S5_e {
         fp2: () => `${this.r1}u${this.r2}i${this.r3}tunna`,
         s1: () => `${this.r1}u${this.r2}i${this.r3}tu`,
         p1: () => `${this.r1}u${this.r2}i${this.r3}naa`
-    };
-
-    presentPassive = {
-        ms3: () => `yu${this.r1}${this.r2}a${this.r3}u`,
-        md3: () => `yu${this.r1}${this.r2}a${this.r3}aani`,
-        mp3: () => `yu${this.r1}${this.r2}a${this.r3}oona`,
-        fs3: () => `tu${this.r1}${this.r2}a${this.r3}u`,
-        fd3: () => `tu${this.r1}${this.r2}a${this.r3}aani`,
-        fp3: () => `yu${this.r1}${this.r2}a${this.r3}na`,
-        ms2: () => `tu${this.r1}${this.r2}a${this.r3}u`,
-        d2: () => `tu${this.r1}${this.r2}a${this.r3}aani`,
-        mp2: () => `tu${this.r1}${this.r2}a${this.r3}oona`,
-        fs2: () => `tu${this.r1}${this.r2}a${this.r3}eena`,
-        fp2: () => `tu${this.r1}${this.r2}a${this.r3}na`,
-        s1: () => `^u${this.r1}${this.r2}a${this.r3}u`,
-        p1: () => `nu${this.r1}${this.r2}a${this.r3}u`
     };
 
     presentPassive = {
@@ -164,17 +157,22 @@ export class Conjugator_I_S5_e {
 
     jasmPassive = {
         ms3: () => `yu${this.r1}${this.r2}a${this.r3}`,
+        ms3a: () => null,
         md3: () => `yu${this.r1}${this.r2}a${this.r3}aa`,
         mp3: () => `yu${this.r1}${this.r2}a${this.r3}oo`,
         fs3: () => `tu${this.r1}${this.r2}a${this.r3}`,
+        fs3a: () => null,
         fd3: () => `tu${this.r1}${this.r2}a${this.r3}aa`,
         fp3: () => `yu${this.r1}${this.r2}a${this.r3}na`,
         ms2: () => `tu${this.r1}${this.r2}a${this.r3}`,
+        ms2a: () => null,
         d2: () => `tu${this.r1}${this.r2}a${this.r3}aa`,
         mp2: () => `tu${this.r1}${this.r2}a${this.r3}oo`,
         fs2: () => `tu${this.r1}${this.r2}a${this.r3}ee`,
         fp2: () => `tu${this.r1}${this.r2}a${this.r3}na`,
         s1: () => `^u${this.r1}${this.r2}a${this.r3}`,
-        p1: () => `nu${this.r1}${this.r2}a${this.r3}`
+        s1a: () => null,
+        p1: () => `nu${this.r1}${this.r2}a${this.r3}`,
+        p1a: () => null
     }
 }

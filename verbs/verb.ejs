@@ -156,19 +156,43 @@
         <tbody>
             <tr>
                 <td>3SM</td><td><%= conj.jasmActive.ms3() %></td>
-            </tr><tr>
+            </tr>
+            <% if (conj.jasmActive.ms3a()) { 
+                %>
+                <tr>
+                    <td>3SM</td><td><%= conj.jasmActive.ms3a() %></td>
+                </tr>
+                <%
+            } %>
+            <tr>
                 <td>3DM</td><td><%= conj.jasmActive.md3() %></td>
             </tr><tr>
                 <td>3PM</td><td><%= conj.jasmActive.mp3() %></td>
             </tr><tr>
                 <td>3SF</td><td><%= conj.jasmActive.fs3() %></td>
-            </tr><tr>
+            </tr>
+            <% if (conj.jasmActive.fs3a()) { 
+                %>
+                <tr>
+                    <td>3SF</td><td><%= conj.jasmActive.fs3a() %></td>
+                </tr>
+                <%
+            } %>
+            <tr>
                 <td>3DF</td><td><%= conj.jasmActive.fd3() %></td>
             </tr><tr>
                 <td>3PF</td><td><%= conj.jasmActive.fp3() %></td>
             </tr><tr>
                 <td>2SM</td><td><%= conj.jasmActive.ms2() %></td>
-            </tr><tr>
+            </tr>
+            <% if (conj.jasmActive.ms2a()) { 
+                %>
+                <tr>
+                    <td>2SM</td><td><%= conj.jasmActive.ms2a() %></td>
+                </tr>
+                <%
+            } %>     
+            <tr>
                 <td>2D</td><td><%= conj.jasmActive.d2() %></td>
             </tr><tr>
                 <td>2PM</td><td><%= conj.jasmActive.mp2() %></td>
@@ -178,9 +202,24 @@
                 <td>2PF</td><td><%= conj.jasmActive.fp2() %></td>
             </tr><tr>
                 <td>1S</td><td><%= conj.jasmActive.s1() %></td>
-            </tr><tr>
+            </tr>
+            <% if (conj.jasmActive.s1a()) { 
+                %>
+                <tr>
+                    <td>1S</td><td><%= conj.jasmActive.s1a() %></td>
+                </tr>
+                <%
+            } %>
+            <tr>
                 <td>1P</td><td><%= conj.jasmActive.p1() %></td>
             </tr>
+            <% if (conj.jasmActive.p1a()) { 
+                %>
+                <tr>
+                    <td>1P</td><td><%= conj.jasmActive.p1a() %></td>
+                </tr>
+                <%
+            } %>
         </tbody>
     </table>
 
@@ -245,13 +284,48 @@
             } %>
             <tr>
                 <td>2D</td><td><%= conj.imperative.d2() %></td>
-            </tr><tr>
+            </tr>
+            <% if (conj.imperative.d2a()) { 
+                %>
+                <tr>
+                    <td>2D</td><td><%= conj.imperative.d2a() %></td>
+                </tr>
+                <%
+            } %>
+            <tr>
+            <tr>
                 <td>2PM</td><td><%= conj.imperative.mp2() %></td>
-            </tr><tr>
+            </tr>
+            <% if (conj.imperative.mp2a()) { 
+                %>
+                <tr>
+                    <td>2PM</td><td><%= conj.imperative.mp2a() %></td>
+                </tr>
+                <%
+            } %>
+            <tr>
+            <tr>
                 <td>2SF</td><td><%= conj.imperative.fs2() %></td>
-            </tr><tr>
+            </tr>
+            <% if (conj.imperative.fs2a()) { 
+                %>
+                <tr>
+                    <td>2SF</td><td><%= conj.imperative.fs2a() %></td>
+                </tr>
+                <%
+            } %>
+            <tr>
+            <tr>
                 <td>2PF</td><td><%= conj.imperative.fp2() %></td>
             </tr>
+            <% if (conj.imperative.fp2a()) { 
+                %>
+                <tr>
+                    <td>2PF</td><td><%= conj.imperative.fp2a() %></td>
+                </tr>
+                <%
+            } %>
+            <tr>
         </tbody>
     </table>
 
@@ -383,19 +457,43 @@
         <tbody>
             <tr>
                 <td>3SM</td><td><%= conj.jasmPassive.ms3() %></td>
-            </tr><tr>
+            </tr>
+            <% if (conj.jasmPassive.ms3a()) { 
+                %>
+                <tr>
+                    <td>3SM</td><td><%= conj.jasmPassive.ms3a() %></td>
+                </tr>
+                <%
+            } %>
+            <tr>
                 <td>3DM</td><td><%= conj.jasmPassive.md3() %></td>
             </tr><tr>
                 <td>3PM</td><td><%= conj.jasmPassive.mp3() %></td>
             </tr><tr>
                 <td>3SF</td><td><%= conj.jasmPassive.fs3() %></td>
-            </tr><tr>
+            </tr>
+            <% if (conj.jasmPassive.fs3a()) { 
+                %>
+                <tr>
+                    <td>3SF</td><td><%= conj.jasmPassive.fs3a() %></td>
+                </tr>
+                <%
+            } %>
+            <tr>
                 <td>3DF</td><td><%= conj.jasmPassive.fd3() %></td>
             </tr><tr>
                 <td>3PF</td><td><%= conj.jasmPassive.fp3() %></td>
             </tr><tr>
                 <td>2SM</td><td><%= conj.jasmPassive.ms2() %></td>
-            </tr><tr>
+            </tr>
+            <% if (conj.jasmPassive.ms2a()) { 
+                %>
+                <tr>
+                    <td>2SM</td><td><%= conj.jasmPassive.ms2a() %></td>
+                </tr>
+                <%
+            } %>
+            <tr>
                 <td>2D</td><td><%= conj.jasmPassive.d2() %></td>
             </tr><tr>
                 <td>2PM</td><td><%= conj.jasmPassive.mp2() %></td>
@@ -405,9 +503,24 @@
                 <td>2PF</td><td><%= conj.jasmPassive.fp2() %></td>
             </tr><tr>
                 <td>1S</td><td><%= conj.jasmPassive.s1() %></td>
-            </tr><tr>
+            </tr>
+            <% if (conj.jasmPassive.s1a()) { 
+                %>
+                <tr>
+                    <td>1S</td><td><%= conj.jasmPassive.s1a() %></td>
+                </tr>
+                <%
+            } %>
+            <tr>
                 <td>1P</td><td><%= conj.jasmPassive.p1() %></td>
             </tr>
+            <% if (conj.jasmPassive.p1a()) { 
+                %>
+                <tr>
+                    <td>1P</td><td><%= conj.jasmPassive.p1a() %></td>
+                </tr>
+                <%
+            } %>
         </tbody>
     </table>
 

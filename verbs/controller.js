@@ -9,6 +9,12 @@ import { Conjugator_I_S5_e } from '../conjugators/conj-I-S5.js';
 import { Conjugator_I_S8_e } from '../conjugators/conj-I-S8.js';
 import { Conjugator_I_Z1_e } from '../conjugators/conj-I-Z1.js';
 import { Conjugator_I_Z2_e } from '../conjugators/conj-I-Z2.js';
+import { Conjugator_I_Z4_e } from '../conjugators/conj-I-Z4.js';
+import { Conjugator_I_Z6_e } from '../conjugators/conj-I-Z6.js';
+import { Conjugator_I_Z9_e } from '../conjugators/conj-I-Z9.js';
+import { Conjugator_I_ZC_e } from '../conjugators/conj-I-ZC.js';
+import { Conjugator_I_G1_e } from '../conjugators/conj-I-G1.js';
+import { Conjugator_I_G2_e } from '../conjugators/conj-I-G2.js';
 
 
 const conjMap = {
@@ -19,7 +25,13 @@ const conjMap = {
     'I-S5': Conjugator_I_S5_e,
     'I-S8': Conjugator_I_S8_e,
     'I-Z1': Conjugator_I_Z1_e,
-    'I-Z2': Conjugator_I_Z2_e
+    'I-Z2': Conjugator_I_Z2_e,
+    'I-Z4': Conjugator_I_Z4_e,
+    'I-Z6': Conjugator_I_Z6_e,
+    'I-Z9': Conjugator_I_Z9_e,
+    'I-ZC': Conjugator_I_ZC_e,
+    'I-G1': Conjugator_I_G1_e,
+    'I-G2': Conjugator_I_G2_e
 };
 
 
@@ -41,9 +53,7 @@ export async function getVerbAction(req, res) {
     else {
         res.send('Error: Category not provided.')
     }
-
 }
-
 
 
 export async function getVerbConjAction(req, res) {
@@ -67,15 +77,12 @@ export async function getVerbConjAction(req, res) {
                 }
                 res.send(html);
             });
-
         }
         else {
             res.send('Error: No record found matching this ID number.')
         }
-    
     } 
     else {
         res.send('Error: No ID provided');
     }
-
 }
