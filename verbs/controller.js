@@ -4,12 +4,22 @@ import { getVerbs, getVerb } from '../model.js';
 import { Conjugator_I_S1_e } from '../conjugators/conj-I-S1.js';
 import { Conjugator_I_S2_e } from '../conjugators/conj-I-S2.js';
 import { Conjugator_I_S3_e } from '../conjugators/conj-I-S3.js';
+import { Conjugator_I_S4_e } from '../conjugators/conj-I-S4.js';
+import { Conjugator_I_S5_e } from '../conjugators/conj-I-S5.js';
+import { Conjugator_I_S8_e } from '../conjugators/conj-I-S8.js';
+import { Conjugator_I_Z1_e } from '../conjugators/conj-I-Z1.js';
+import { Conjugator_I_Z2_e } from '../conjugators/conj-I-Z2.js';
 
 
 const conjMap = {
     'I-S1': Conjugator_I_S1_e,
     'I-S2': Conjugator_I_S2_e,
-    'I-S3': Conjugator_I_S3_e
+    'I-S3': Conjugator_I_S3_e,
+    'I-S4': Conjugator_I_S4_e,
+    'I-S5': Conjugator_I_S5_e,
+    'I-S8': Conjugator_I_S8_e,
+    'I-Z1': Conjugator_I_Z1_e,
+    'I-Z2': Conjugator_I_Z2_e
 };
 
 
@@ -28,6 +38,9 @@ export async function getVerbAction(req, res) {
             res.send(html);
         });
     }
+    else {
+        res.send('Error: Category not provided.')
+    }
 
 }
 
@@ -45,9 +58,6 @@ export async function getVerbConjAction(req, res) {
 
             const { category, root1_e: r1, root2_e: r2, root3_e: r3 } = data[0];
 
-            console.log(category);
-
-
             const conjugatorClass = conjMap[category];
             const conjugator = new conjugatorClass(r1, r2, r3);
 
@@ -64,5 +74,8 @@ export async function getVerbConjAction(req, res) {
         }
     
     } 
+    else {
+        res.send('Error: No ID provided');
+    }
 
 }

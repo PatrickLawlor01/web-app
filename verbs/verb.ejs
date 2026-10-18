@@ -9,6 +9,8 @@
 <body>
     Verb conjugation: <%= data.basic_e %> <i><%= data.translate %></i> <br/><br/>
 
+    <a href="/">Return to main menu</a><br/><br/><br/>
+
     <table>
         <thead>
             <tr>
@@ -233,7 +235,15 @@
         <tbody>
             <tr>
                 <td>2SM</td><td><%= conj.imperative.ms2() %></td>
-            </tr><tr>
+            </tr>
+            <% if (conj.imperative.ms2a()) { 
+                %>
+                <tr>
+                    <td>2SM</td><td><%= conj.imperative.ms2a() %></td>
+                </tr>
+                <%
+            } %>
+            <tr>
                 <td>2D</td><td><%= conj.imperative.d2() %></td>
             </tr><tr>
                 <td>2PM</td><td><%= conj.imperative.mp2() %></td>

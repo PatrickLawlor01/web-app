@@ -97,7 +97,7 @@ INSERT INTO verbs3 (id, category, root1_e, root2_e, root3_e, basic_e, basicp_e, 
     (61, 'I-S2', 'n', 'f', 'r', 'nafara', 'yanfiru', 'infir', 'to advance, to go forth'),
 
 
-    (62, 'I-S3', 'J', 'ɛ', 'l', 'jaɛala', 'yajɛalu', 'ijɛal', 'to make, to place'),
+    (62, 'I-S3', 'j', 'ɛ', 'l', 'jaɛala', 'yajɛalu', 'ijɛal', 'to make, to place'),
     (63, 'I-S3', 'b', 'ɛ', 'th', 'baɛatha', 'yabɛathu', 'ibɛath', 'to raise, to resurrect'),
     (64, 'I-S3', 'f', 't', 'H', 'fataHa', 'yaftaHu', 'iftaH', 'to open, to be victorious'),
     (65, 'I-S3', 'f', 'ɛ', 'l', 'faɛala', 'yafɛalu', 'ifɛal', 'to do'),

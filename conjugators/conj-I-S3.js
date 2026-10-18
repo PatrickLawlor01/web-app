@@ -91,6 +91,7 @@ export class Conjugator_I_S3_e {
 
     imperative = {
         ms2: () => `i${this.r1}${this.r2}a${this.r3}`,
+        ms2a: () => null,
         d2: () => `i${this.r1}${this.r2}a${this.r3}aa`,
         mp2: () => `i${this.r1}${this.r2}a${this.r3}oo`,
         fs2: () => `i${this.r1}${this.r2}a${this.r3}ee`,
