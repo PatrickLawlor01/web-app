@@ -11,6 +11,8 @@
 
     <a href="/">Return to main menu</a><br/><br/><br/>
 
+    <% if (conj.activeParticiple() || conj.passiveParticiple()) {
+    %>
     <table>
         <thead>
             <tr>
@@ -18,17 +20,29 @@
             </tr>
         </thead>
         <tbody>
+            <% if (conj.activeParticiple()) {
+            %>
             <tr>
                 <td>Active Participle</td><td><%= conj.activeParticiple() %></td>
             </tr>
+            <%
+            } %>
+            <% if (conj.passiveParticiple()) {
+            %>
             <tr>
                 <td>Passive Participle</td><td><%= conj.passiveParticiple() %></td>
             </tr>
+            <%
+            } %>
         </tbody>
     </table>
+    <%
+    } %>
 
     <br/><br/>
 
+    <% if (conj.past) {
+    %>
     <table>
         <thead>
             <tr>
@@ -67,7 +81,12 @@
     </table>
 
     <br/><br/>
+    <% 
+    } %>
 
+    
+    <% if (conj.present) {
+    %>
     <table>
         <thead>
             <tr>
@@ -106,7 +125,12 @@
     </table>
 
     <br/><br/>
+    <% 
+    } %>
 
+
+    <% if (conj.nasbActive) {
+    %>
     <table>
         <thead>
             <tr>
@@ -144,9 +168,12 @@
         </tbody>
     </table>
 
-
     <br/><br/>
+    <% 
+    } %>
 
+    <% if (conj.jasmActive) {
+    %>
     <table>
         <thead>
             <tr>
@@ -224,7 +251,11 @@
     </table>
 
     <br/><br/>
+    <% 
+    } %>
 
+    <% if (conj.future) {
+    %>
     <table>
         <thead>
             <tr>
@@ -264,7 +295,11 @@
 
 
     <br/><br/>
+    <% 
+    } %>
 
+    <% if (conj.imperative) {
+    %>
     <table>
         <thead>
             <tr>
@@ -330,7 +365,11 @@
     </table>
 
     <br/><br/>
+    <% 
+    } %>
 
+    <% if (conj.pastPassive) {
+    %>
     <table>
         <thead>
             <tr>
@@ -369,7 +408,11 @@
     </table>
 
     <br/><br/>
+    <% 
+    } %>
 
+    <% if (conj.presentPassive) {
+    %>
     <table>
         <thead>
             <tr>
@@ -408,7 +451,11 @@
     </table>
 
     <br/><br/>
+    <% 
+    } %>
 
+    <% if (conj.nasbPassive) {
+    %>
     <table>
         <thead>
             <tr>
@@ -447,7 +494,11 @@
     </table>
 
     <br/><br/>
+    <% 
+    } %>
 
+    <% if (conj.jasmPassive) {
+    %>
     <table>
         <thead>
             <tr>
@@ -523,7 +574,8 @@
             } %>
         </tbody>
     </table>
-
+    <% 
+    } %>
 
 </body>
 </html>

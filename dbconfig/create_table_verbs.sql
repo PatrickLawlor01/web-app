@@ -264,7 +264,7 @@ INSERT INTO verbs3 (id, category, root1_e, root2_e, root3_e, basic_e, basicp_e, 
     
 
     (175, 'I-H4', 'D', 'y', 'ɛ', 'daaɛa', 'yadeeɛu', 'diɛ', 'to get lost, to be lost'),
-    (176, 'I-H4', 'D', 'y', '', 'Daaqa', 'yaDeequ', 'Diq', 'to be narrow, to become constricted'),
+    (176, 'I-H4', 'D', 'y', 'q', 'Daaqa', 'yaDeequ', 'Diq', 'to be narrow, to become constricted'),
     (177, 'I-H4', 'k', 'y', 'd', 'kaada', 'yakeedu', 'kid', 'to plot, to plan'),
     (178, 'I-H4', 's', 'y', 'r', 'saara', 'yaseeru', 'sir', 'to proceed, to travel'),
     (179, 'I-H4', 'z', 'y', 'd', 'zaarda', 'yazeedu', 'zid', 'to increase'),

@@ -21,6 +21,12 @@ import { Conjugator_I_A1_e } from '../conjugators/conj-I-A1.js';
 import { Conjugator_I_A2_e } from '../conjugators/conj-I-A2.js';
 import { Conjugator_I_A3_e } from '../conjugators/conj-I-A3.js';
 import { Conjugator_I_H1_e } from '../conjugators/conj-I-H1.js';
+import { Conjugator_I_H3_e } from '../conjugators/conj-I-H3.js';
+import { Conjugator_I_H4_e } from '../conjugators/conj-I-H4.js';
+import { Conjugator_I_H5_e } from '../conjugators/conj-I-H5.js';
+import { Conjugator_I_H6_e } from '../conjugators/conj-I-H6.js';
+import { Conjugator_I_D1_e } from '../conjugators/conj-I-D1.js';
+import { Conjugator_I_D2_e } from '../conjugators/conj-I-D2.js';
 
 
 const conjMap = {
@@ -43,7 +49,13 @@ const conjMap = {
     'I-A1': Conjugator_I_A1_e,
     'I-A2': Conjugator_I_A2_e,
     'I-A3': Conjugator_I_A3_e,
-    'I-H1': Conjugator_I_H1_e
+    'I-H1': Conjugator_I_H1_e,
+    'I-H3': Conjugator_I_H3_e,
+    'I-H4': Conjugator_I_H4_e,
+    'I-H5': Conjugator_I_H5_e,
+    'I-H6': Conjugator_I_H6_e,
+    'I-D1': Conjugator_I_D1_e,
+    'I-D2': Conjugator_I_D2_e
 };
 
 

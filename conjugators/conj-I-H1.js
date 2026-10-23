@@ -95,15 +95,15 @@ export class Conjugator_I_H1_e {
     };
 
     imperative = {
-        ms2: () => `u${this.r1}u${this.r3}`,
+        ms2: () => `${this.r1}u${this.r3}`,
         ms2a: () => null,
-        d2: () => `u${this.r1}oo${this.r3}aa`,
+        d2: () => `${this.r1}oo${this.r3}aa`,
         d2a: () => null,
-        mp2: () => `u${this.r1}oo${this.r3}oo`,
+        mp2: () => `${this.r1}oo${this.r3}oo`,
         mp2a: () => null,
-        fs2: () => `u${this.r1}oo${this.r3}ee`,
+        fs2: () => `${this.r1}oo${this.r3}ee`,
         fs2a: () => null,
-        fp2: () => `u${this.r1}u${this.r3}na`,
+        fp2: () => `${this.r1}u${this.r3}na`,
         fp2a: () => null
     };
 
