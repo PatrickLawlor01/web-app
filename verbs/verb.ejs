@@ -52,15 +52,47 @@
         <tbody>
             <tr>
                 <td>3SM</td><td><%= conj.past.ms3() %></td>
-            </tr><tr>
+            </tr>
+            <% if (conj.past.ms3a && conj.past.ms3a()) {
+            %>
+            <tr>
+                <td>3SM</td><td><%= conj.past.ms3a() %></td>
+            </tr>
+            <%
+            } %>
+            <tr>
                 <td>3DM</td><td><%= conj.past.md3() %></td>
-            </tr><tr>
+            </tr>
+            <% if (conj.past.md3a && conj.past.md3a()) {
+            %>
+            <tr>
+                <td>3DM</td><td><%= conj.past.md3a() %></td>
+            </tr>
+            <%
+            } %>
+            <tr>
                 <td>3PM</td><td><%= conj.past.mp3() %></td>
             </tr><tr>
                 <td>3SF</td><td><%= conj.past.fs3() %></td>
-            </tr><tr>
+            </tr>
+            <% if (conj.past.fs3a && conj.past.fs3a()) {
+            %>
+            <tr>
+                <td>3SF</td><td><%= conj.past.fs3a() %></td>
+            </tr>
+            <%
+            } %>
+            <tr>
                 <td>3DF</td><td><%= conj.past.fd3() %></td>
-            </tr><tr>
+            </tr>
+            <% if (conj.past.fd3a && conj.past.fd3a()) {
+            %>
+            <tr>
+                <td>3DF</td><td><%= conj.past.fd3a() %></td>
+            </tr>
+            <%
+            } %>
+            <tr>
                 <td>3PF</td><td><%= conj.past.fp3() %></td>
             </tr><tr>
                 <td>2SM</td><td><%= conj.past.ms2() %></td>

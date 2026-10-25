@@ -33,6 +33,12 @@ import { Conjugator_I_W1_e } from '../conjugators/conj-I-W1.js';
 import { Conjugator_I_W2_e } from '../conjugators/conj-I-W2.js';
 import { Conjugator_I_W3_e } from '../conjugators/conj-I-W3.js';
 import { Conjugator_I_W5_e } from '../conjugators/conj-I-W5.js';
+import { Conjugator_I_W6_e } from '../conjugators/conj-I-W6.js';
+import { Conjugator_I_W7_e } from '../conjugators/conj-I-W7.js';
+import { Conjugator_I_W8_e } from '../conjugators/conj-I-W8.js';
+import { Conjugator_I_W9_e } from '../conjugators/conj-I-W9.js';
+import { Conjugator_I_WA_e } from '../conjugators/conj-I-WA.js';
+import { Conjugator_I_WB_e } from '../conjugators/conj-I-WB.js';
 
 
 const conjMap = {
@@ -67,7 +73,13 @@ const conjMap = {
     'I-W1': Conjugator_I_W1_e,
     'I-W2': Conjugator_I_W2_e,
     'I-W3': Conjugator_I_W3_e,
-    'I-W5': Conjugator_I_W5_e
+    'I-W5': Conjugator_I_W5_e,
+    'I-W6': Conjugator_I_W6_e,
+    'I-W7': Conjugator_I_W7_e,
+    'I-W8': Conjugator_I_W8_e,
+    'I-W9': Conjugator_I_W9_e,
+    'I-WA': Conjugator_I_WA_e,
+    'I-WB': Conjugator_I_WB_e
 };
 
 

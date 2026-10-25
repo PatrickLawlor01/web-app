@@ -11,10 +11,14 @@ export class Conjugator_I_W5_e {
 
     past = {
         ms3: () => `${this.r1}a${this.r2}iya`,
+        ms3a: () => `${this.r1}a${this.r2}ya`,
         md3: () => `${this.r1}a${this.r2}iyaa`,
+        md3a: () => `${this.r1}a${this.r2}yaa`,
         mp3: () => `${this.r1}a${this.r2}oo`,
         fs3: () => `${this.r1}a${this.r2}iyat`,
+        fs3a: () => `${this.r1}a${this.r2}yat`,
         fd3: () => `${this.r1}a${this.r2}iyataa`,
+        fd3a: () => `${this.r1}a${this.r2}yataa`,
         fp3: () => `${this.r1}a${this.r2}eena`,
         ms2: () => `${this.r1}a${this.r2}eeta`,
         d2: () => `${this.r1}a${this.r2}eetumaa`,
