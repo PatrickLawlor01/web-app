@@ -20,7 +20,7 @@ export class Conjugator_II_D1_e {
         d2: () => `${this.r1}a${this.r2}${this.r2}aytumaa`,
         mp2: () => `${this.r1}a${this.r2}${this.r2}aytum`,
         fs2: () => `${this.r1}a${this.r2}${this.r2}ayti`,
-        fp2: () => `${this.r1}a${this.r2}aytunna`,
+        fp2: () => `${this.r1}${this.r2}a${this.r2}aytunna`,
         s1: () => `${this.r1}a${this.r2}${this.r2}aytu`,
         p1: () => `${this.r1}a${this.r2}${this.r2}aynaa`
     };

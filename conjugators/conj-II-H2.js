@@ -20,7 +20,7 @@ export class Conjugator_II_H2_e {
         d2: () => `${this.r1}a${this.r2}${this.r2}a${this.r3}tumaa`,
         mp2: () => `${this.r1}a${this.r2}${this.r2}a${this.r3}tum`,
         fs2: () => `${this.r1}a${this.r2}${this.r2}a${this.r3}ti`,
-        fp2: () => `${this.r1}a${this.r2}a${this.r3}tunna`,
+        fp2: () => `${this.r1}a${this.r2}${this.r2}a${this.r3}tunna`,
         s1: () => `${this.r1}a${this.r2}${this.r2}a${this.r3}tu`,
         p1: () => `${this.r1}a${this.r2}${this.r2}a${this.r3}naa`
     };
