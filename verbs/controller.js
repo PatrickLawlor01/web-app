@@ -52,7 +52,12 @@ import { Conjugator_III_S1_e } from '../conjugators/conj-III-S1.js';
 import { Conjugator_III_Z1_e } from '../conjugators/conj-III-Z1.js';
 import { Conjugator_III_G1_e } from '../conjugators/conj-III-G1.js';
 import { Conjugator_IV_S1_e } from '../conjugators/conj-IV-S1.js';
-
+import { Conjugator_IV_Z3_e } from '../conjugators/conj-IV-Z3.js';
+import { Conjugator_IV_G1_e } from '../conjugators/conj-IV-G1.js';
+import { Conjugator_IV_A1_e } from '../conjugators/conj-IV-A1.js';
+import { Conjugator_IV_A2_e } from '../conjugators/conj-IV-A2.js';
+import { Conjugator_IV_H1_e } from '../conjugators/conj-IV-H1.js';
+import { Conjugator_IV_H2_e } from '../conjugators/conj-IV-H2.js';
 
 
 const conjMap = {
@@ -106,7 +111,13 @@ const conjMap = {
     'III-S1': Conjugator_III_S1_e,
     'III-Z1': Conjugator_III_Z1_e,
     'III-G1': Conjugator_III_G1_e,
-    'IV-S1': Conjugator_IV_S1_e
+    'IV-S1': Conjugator_IV_S1_e,
+    'IV-Z3': Conjugator_IV_Z3_e,
+    'IV-G1': Conjugator_IV_G1_e,
+    'IV-A1': Conjugator_IV_A1_e,
+    'IV-A2': Conjugator_IV_A2_e,
+    'IV-H1': Conjugator_IV_H1_e,
+    'IV-H2': Conjugator_IV_H2_e
 };
 
 
