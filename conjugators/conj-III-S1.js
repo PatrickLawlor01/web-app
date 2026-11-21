@@ -172,7 +172,7 @@ export class Conjugator_III_S1_e {
         fp2: () => `tu${this.r1}aa${this.r2}a${this.r3}na`,
         s1: () => `^u${this.r1}aa${this.r2}a${this.r3}`,
         s1a: () => null,
-        p1: () => `nu${this.r1}aa${this.r2}a${this.r3}a`,
+        p1: () => `nu${this.r1}aa${this.r2}a${this.r3}`,
         p1a: () => null
     }
 }

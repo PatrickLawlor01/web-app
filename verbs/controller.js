@@ -49,6 +49,10 @@ import { Conjugator_II_W3_e } from '../conjugators/conj-II-W3.js';
 import { Conjugator_II_W5_e } from '../conjugators/conj-II-W5.js';
 import { Conjugator_II_W6_e } from '../conjugators/conj-II-W6.js';
 import { Conjugator_III_S1_e } from '../conjugators/conj-III-S1.js';
+import { Conjugator_III_Z1_e } from '../conjugators/conj-III-Z1.js';
+import { Conjugator_III_G1_e } from '../conjugators/conj-III-G1.js';
+import { Conjugator_IV_S1_e } from '../conjugators/conj-IV-S1.js';
+
 
 
 const conjMap = {
@@ -99,7 +103,10 @@ const conjMap = {
     'II-W3': Conjugator_II_W3_e,
     'II-W5': Conjugator_II_W5_e,
     'II-W6': Conjugator_II_W6_e,
-    'III-S1': Conjugator_III_S1_e
+    'III-S1': Conjugator_III_S1_e,
+    'III-Z1': Conjugator_III_Z1_e,
+    'III-G1': Conjugator_III_G1_e,
+    'IV-S1': Conjugator_IV_S1_e
 };
 
 
