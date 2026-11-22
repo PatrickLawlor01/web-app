@@ -58,6 +58,10 @@ import { Conjugator_IV_A1_e } from '../conjugators/conj-IV-A1.js';
 import { Conjugator_IV_A2_e } from '../conjugators/conj-IV-A2.js';
 import { Conjugator_IV_H1_e } from '../conjugators/conj-IV-H1.js';
 import { Conjugator_IV_H2_e } from '../conjugators/conj-IV-H2.js';
+import { Conjugator_IV_D1_e } from '../conjugators/conj-IV-D1.js';
+import { Conjugator_IV_D2_e } from '../conjugators/conj-IV-D2.js';
+import { Conjugator_IV_W1_e } from '../conjugators/conj-IV-W1.js';
+import { Conjugator_IV_W4_e } from '../conjugators/conj-IV-W4.js';
 
 
 const conjMap = {
@@ -117,7 +121,11 @@ const conjMap = {
     'IV-A1': Conjugator_IV_A1_e,
     'IV-A2': Conjugator_IV_A2_e,
     'IV-H1': Conjugator_IV_H1_e,
-    'IV-H2': Conjugator_IV_H2_e
+    'IV-H2': Conjugator_IV_H2_e,
+    'IV-D1': Conjugator_IV_D1_e,
+    'IV-D2': Conjugator_IV_D2_e,
+    'IV-W1': Conjugator_IV_W1_e,
+    'IV-W4': Conjugator_IV_W4_e
 };
 
 
